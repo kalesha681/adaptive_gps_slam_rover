@@ -10,6 +10,8 @@ docker run -it \
   -v /dev:/dev \
   --device /dev/i2c-1 \
   -v ~/ros2_docker_data/ws:/root/ros2_ws \
+  -v ~/adaptive_gps_slam_rover/ros2_ws/src:/root/ros2_ws/src \
   -v ~/ros2_docker_data/rviz:/root/rviz \
   -v ~/ros2_docker_data/bags:/root/bags \
-  my_pi5_robot
+  adaptive-rover
+
